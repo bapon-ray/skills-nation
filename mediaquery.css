@@ -1,0 +1,922 @@
+@media screen and (max-width: 1366px) {
+
+    .navBar {
+        padding: 20px 3rem;
+    }
+
+    .heroBg,
+    .skillCouncil,
+    .typeCourse {
+        padding: 0 3rem;
+    }
+
+    .purposeWrapper {
+        padding-left: 5rem;
+    }
+
+    .typeCourse {
+        padding: 80px 3rem;
+    }
+
+    .skillDevContainer {
+        padding: 60px 3rem;
+    }
+
+    .mediaContainer {
+        padding: 80px 3rem;
+    }
+
+    .importantLinks {
+        padding: 80px 3rem;
+    }
+
+
+    .buySection {
+        padding: 80px 3rem;
+    }
+
+    .BuyHub {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .mescFacility {
+        padding: 80px 3rem;
+    }
+
+    .benefitContainer {
+        padding: 0px 3rem;
+    }
+
+    .footerContainer {
+        padding: 50px 3rem;
+    }
+
+    .poster {
+        padding: 50px 3rem;
+    }
+
+
+    .decOverView {
+        padding: 30px 3rem;
+    }
+
+    table {
+        padding: 30px 3rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+
+    .navBar {
+        padding: 20px 2rem;
+        z-index: 100;
+        box-shadow: 0px 0px 5px #0000005e;
+    }
+
+    .navLinks {
+        position: absolute;
+        top: 9vh;
+        background-color: var(--bg-);
+        width: 100%;
+        padding: 20px 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        z-index: 100;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .navLinks ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: var(--color-);
+        margin: 5px;
+    }
+
+    .hLine,
+    .hHomeLine {
+        display: none;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .heroHeading::after {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .heroHeading h1 {
+        font-size: 3rem;
+        line-height: 60px;
+        padding: 35px;
+    }
+
+    .heroContent p {
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    .heroLogo {
+        width: 150px;
+        height: 70px;
+    }
+
+    .skillCouncil {
+        padding: 0 1rem;
+    }
+
+    .upperHead h2 {
+        font-size: 1.2rem;
+    }
+
+    .upperHead {
+        height: 50px;
+        top: -25px;
+    }
+
+
+    .skillCouncilWrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .skillImg img {
+        width: 300px;
+    }
+
+    .skillMediaContent h2 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+
+    .skillMediaContent p {
+        text-align: center;
+        padding: 0 5rem;
+        font-size: .9rem;
+    }
+
+    .skillMediaContent {
+        margin-left: 0;
+    }
+
+    .skillBtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skillBtn a {
+        padding: 10px 30px;
+        font-size: .8rem;
+    }
+
+    .purposeContainer {
+        padding: 50px 0;
+    }
+
+    .purposeWrapper {
+        padding-left: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0 2rem;
+        gap: 20px;
+    }
+
+    .purposeImg img {
+        width: 250px;
+        height: 250px;
+        border-radius: 0%;
+        transform: translateX(0);
+        box-shadow: -8px -8px 0px var(--hero-heading-);
+    }
+
+    .purposeContent {
+        width: 100%;
+    }
+
+    .purposeContent h2 {
+        font-size: 1.5rem;
+    }
+
+    .purposeContent ul li {
+        font-size: .9rem;
+    }
+
+
+    #cursor {
+        display: none;
+    }
+
+    .typeCourse {
+        padding: 0 2rem;
+    }
+
+    .coursesText {
+        font-size: 1.2rem;
+    }
+
+    .typeCourse {
+        padding: 50px 2rem;
+    }
+
+    .courseText h2 {
+        font-size: 1.2rem;
+    }
+
+    .courseText p {
+        font-size: .9rem;
+    }
+
+
+    .coursesText {
+        font-size: 1.5rem;
+    }
+
+    .courseContent {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contentRow {
+        width: 100%;
+    }
+
+    .contentIcone img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .allSkills ul li {
+        font-size: .9rem;
+    }
+
+    .skillDevContainer {
+        padding: 60px 2rem;
+    }
+
+    .mediaContainer {
+        justify-content: start;
+        padding: 60px 2rem;
+    }
+
+    .mediaWrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .mediaContent {
+        border: none;
+    }
+
+    .mediaContent h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .mediaContent h2 {
+        font-size: 1.3rem;
+    }
+
+    .courseName h2 {
+        font-size: 1.1rem;
+    }
+
+    .courseName::after {
+        width: 40px;
+        height: 2px;
+    }
+
+    .aboutMediaCourses {
+        margin: 0;
+    }
+
+    .mediaCourse img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .aboutContent {
+        gap: 30px;
+    }
+
+    .importantLinks {
+        padding: 60px 2rem;
+    }
+
+    .flip-card {
+        width: 200px;
+        height: 200px;
+    }
+
+    .flip-card-front {
+        padding: 15px;
+    }
+
+    .buySection {
+        padding: 60px 2rem;
+    }
+
+    .buyHeader h1 {
+        font-size: 1.5rem;
+    }
+
+    .buyHeader p {
+        font-size: 1rem;
+    }
+
+    .mescFacility {
+        padding: 80px 2rem;
+    }
+
+    .mescWrapper {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .mescRow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mescRow img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .mescRow h2 {
+        font-size: 1.1rem;
+    }
+
+    .navBar {
+        height: 8vh;
+    }
+
+    .benefitContainer {
+        padding: 0px 2rem;
+    }
+
+
+    .benefitsHeader h2 {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .aboutBenefits ul li {
+        font-size: .9rem;
+    }
+
+    .benefitWrapper {
+        padding: 50px;
+    }
+
+    .partnerHeader h2 {
+        font-size: 1.5rem;
+    }
+
+    .brand-card-slide img {
+        height: 80px;
+    }
+
+    .partnerContainer {
+        padding: 60px 0;
+    }
+
+    .footerContainer {
+        padding: 50px 2rem;
+    }
+
+    .mainLogo {
+        height: 50px;
+    }
+
+    .skillIndia {
+        height: 50px;
+        margin: 0 30px;
+    }
+
+    .ms {
+        height: 50px;
+    }
+
+    .fMain ul li a {
+        font-size: .9rem;
+    }
+
+    .addFooter span {
+        font-size: .9rem;
+    }
+
+    .addFooter p {
+        font-size: .8rem;
+    }
+
+    /* course page */
+    .location span {
+        font-size: .8rem;
+    }
+
+    .poster {
+        padding: 50px 2rem;
+    }
+
+    .posterWrapper {
+        height: 500px;
+    }
+
+    .decOverView {
+        padding: 30px 2rem;
+    }
+
+    .decOverView p {
+        font-size: .9rem;
+    }
+
+    .duration {
+        font-size: .8rem;
+    }
+
+    .structureHeading {
+        margin-top: 30px;
+    }
+
+    table {
+        padding: 30px 2rem;
+    }
+
+    .table-wrapper {
+        overflow-x: scroll;
+    }
+
+    .t-head,
+    .t-data {
+        padding: 10px 15px;
+        font-size: .9rem;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navBar {
+        padding: 15px 1rem;
+    }
+
+
+
+    .logo {
+        width: 140px;
+    }
+
+    .navLinks {
+        top: 7vh;
+    }
+
+    .line {
+        height: 2px;
+    }
+
+    .navLinks ul li a {
+        font-size: .8rem;
+    }
+
+    .navLinks ul {
+        gap: 10px;
+    }
+
+    .heroHeading::after {
+        width: 160px;
+        height: 160px;
+    }
+
+    .heroLogo {
+        width: 80px;
+        height: 40px;
+        position: absolute;
+        right: 0px;
+        top: -10px;
+    }
+
+    .heroWrapper {
+        align-items: center;
+    }
+
+    .heroContent {
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .heroHeading h1 {
+        font-size: 1.5rem;
+        line-height: 32px;
+        padding: 25px;
+    }
+
+    .heroContent p {
+        padding: 20px;
+        font-size: .9rem;
+        width: 100%;
+    }
+
+    .heroBg {
+        height: 40vh;
+        padding: 0 1rem;
+    }
+
+    .skillCouncil {
+        padding: 0 1rem;
+    }
+
+    .upperHead {
+        height: 40px;
+        top: -20px;
+    }
+
+    .upperHead h2 {
+        font-size: .6rem;
+    }
+
+    .skillImg img {
+        width: 150px;
+    }
+
+    .skillMediaContent h2 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+
+    .skillMediaContent p {
+        text-align: center;
+        padding: 0 1rem;
+        font-size: .7rem;
+    }
+
+    .skillMediaContent {
+        margin-left: 0;
+    }
+
+    .skillBtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skillBtn a {
+        padding: 10px 30px;
+        font-size: .7rem;
+    }
+
+    .skillCouncilWrapper {
+        padding: 3rem 0;
+    }
+
+    .purposeWrapper {
+        padding: 0 2rem;
+    }
+
+    .purposeImg img {
+        width: 150px;
+        height: 150px;
+        box-shadow: -5px -5px 0px var(--hero-heading-);
+    }
+
+    .purposeContent h2 {
+        font-size: 1.1rem;
+    }
+
+    .purposeContent ul li {
+        font-size: .7rem;
+    }
+
+    .purposeContainer {
+        padding: 40px 0;
+    }
+
+    #cursor {
+        display: none;
+    }
+
+    .coursesHeader {
+        gap: 10px;
+    }
+
+    .coursesText {
+        font-size: .9rem;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .sideLine {
+        height: 2px;
+    }
+
+    .contentIcone img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .courseText h2 {
+        font-size: 1rem;
+    }
+
+    .courseText p {
+        font-size: .7rem;
+    }
+
+
+    .coursesText {
+        font-size: 1rem;
+    }
+
+    .typeCourse {
+        padding: 50px 1rem;
+    }
+
+    .borderBig {
+        width: 90%;
+    }
+
+    .borderSmall {
+        width: 8%;
+    }
+
+
+    .allSkills ul li {
+        border: none;
+        padding: 0;
+        font-size: .7rem;
+    }
+
+    .allSkills ul {
+        flex-direction: column;
+    }
+
+    .skillDevContainer {
+        padding: 50px 1rem;
+    }
+
+
+    .mediaContent h1 {
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+
+    .mediaContent h2 {
+        font-size: 1rem;
+    }
+
+    .courseName h2 {
+        font-size: .9rem;
+    }
+
+    .courseName::after {
+        width: 35px;
+        height: 1px;
+    }
+
+    .aboutMediaCourses {
+        margin: 0;
+    }
+
+    .mediaCourse img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tranMeda {
+        transform: translateX(0px);
+    }
+
+    .midTrans {
+        transform: translateX(0px);
+    }
+
+    .importantLinks {
+        padding: 60px 1rem;
+    }
+
+    .flip-card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .flip-card-back a {
+        font-size: .7rem;
+    }
+
+    .BuyHub {
+        width: 100%;
+    }
+
+    .buySection {
+        padding: 50px 1rem;
+    }
+
+    .card {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .buyHeader h1 {
+        font-size: 1.3rem;
+    }
+
+    .buyHeader p {
+        font-size: .7rem;
+    }
+
+    .mescFacility {
+        padding: 50px 1rem;
+    }
+
+    .mescRow img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .mescRow h2 {
+        font-size: .9rem;
+    }
+
+    .mescWrapper {
+        gap: 30px;
+    }
+
+    .mescContent {
+        padding: 15px;
+        border-radius: 0;
+
+    }
+
+    .aboutMesc {
+        margin-top: 20px;
+    }
+
+    .mescText p {
+        font-size: .7rem;
+    }
+
+    .mescIcone i {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .benefitContainer {
+        padding: 0px 1rem;
+    }
+
+    .benefitsHeader h2 {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .aboutBenefits ul li {
+        font-size: .7rem;
+    }
+
+    .benefitWrapper {
+        padding: 50px;
+    }
+
+
+    .partnerContainer {
+        padding: 50px 0;
+    }
+
+    .brand-card-slide img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .partnerHeader h2 {
+        font-size: 1.2rem;
+    }
+
+    .partnerLogos {
+        margin-top: 30px;
+    }
+
+    .footerContainer {
+        padding: 50px 1rem;
+    }
+
+
+    .mainLogo {
+        height: 30px;
+    }
+
+    .skillIndia {
+        height: 30px;
+        margin: 0 20px;
+    }
+
+    .ms {
+        height: 30px;
+    }
+
+    .fMain ul li a {
+        font-size: .7rem;
+    }
+
+    .addFooter span {
+        font-size: .8rem;
+    }
+
+    .addFooter p {
+        font-size: .7rem;
+        text-align: center;
+    }
+
+    .addFooter {
+        padding: 12px 10px;
+    }
+
+    .fMain ul {
+        gap: 20px;
+    }
+
+    .fMain {
+        padding: 12px 10px;
+    }
+
+    .copyright {
+        padding: 10px 1rem;
+    }
+
+    .copyWrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .textCopy span {
+        font-size: .7rem;
+    }
+
+    .sLinks {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sLinks a {
+        font-size: .7rem;
+    }
+
+    .location span {
+        font-size: .7rem;
+    }
+
+
+    .poster {
+        padding: 40px 1rem;
+    }
+
+    .posterWrapper {
+        height: 300px;
+    }
+
+    .decOverView {
+        padding: 30px 1rem;
+    }
+
+    .decOverView p {
+        font-size: .7rem;
+    }
+
+    .duration {
+        font-size: .7rem;
+    }
+
+
+    .table {
+        padding: 0px 1rem;
+        margin-bottom: 20px;
+    }
+
+    .t-head,
+    .t-data {
+        padding: 10px 10px;
+        font-size: .7rem;
+    }
+}
